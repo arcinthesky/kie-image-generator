@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { MODELS, ModelConfig } from '@/config/models';
+import { MODELS, ModelConfig } from '../config/models';
 
 interface ModelState {
   selectedModel: ModelConfig;

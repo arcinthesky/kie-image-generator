@@ -2,8 +2,8 @@
 
 import { motion, AnimatePresence } from "framer-motion";
 import { Sparkles, Image as ImageIcon, Settings2, Zap, Loader2, ChevronRight, Download } from "lucide-react";
-import { useModelStore } from "@/store/use-model-store";
-import { MODELS } from "@/config/models";
+import { useModelStore } from "../store/use-model-store";
+import { MODELS } from "../config/models";
 
 export default function Home() {
   const { 
